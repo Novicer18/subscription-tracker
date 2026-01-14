@@ -10,6 +10,7 @@ app.get("/", (_req, res) => {
 });
 
 app.listen(PORT, () => {
-	console.log(`Server listening on port ${PORT}`);
+	console.log(`Server listening http://localhost:${PORT}`);
 });
 
+export default app;
